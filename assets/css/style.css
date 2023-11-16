@@ -1,0 +1,401 @@
+body {
+    padding-top: 50px;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto !important
+}
+
+.row {
+    *zoom: 1;
+    margin-left: -30px
+}
+
+.row:after {
+    clear: both
+}
+
+.row:before, .row:after {
+    content: "";
+    display: table;
+    line-height: 0
+}
+
+.logo {
+    float: left;
+    margin-top: 0px;
+    margin-right: 10px
+}
+
+.navbar {
+    height: 70px;
+    padding-top: 23px;
+    background: #ffffff;
+    opacity: 0.98;
+    border: none
+}
+
+.localnav-title {
+    padding: 0;
+    margin: 8px;
+    display: block;
+    font-size: 22px;
+    line-height: 1;
+    float: left
+}
+
+.localnav-title a {
+    margin: 0 0 0 0;
+    color: #333;
+    display: block;
+    text-decoration: none
+}
+
+.localnav-links {
+    float: right;
+    margin: 8px 0 7px 0
+}
+
+.localnav-links li {
+    float: left;
+    list-style: none;
+    margin-left: 30px
+}
+
+.localnav-link {
+    font-size: 14px;
+    color: #333;
+    display: inline-block;
+    white-space: nowrap
+}
+
+.localnav-link:hover {
+    color: #333;
+    text-decoration: none
+}
+
+section {
+    opacity: 1;
+    -ms-transform: translate(0px, 0px);
+    -webkit-transform: translate(0px, 0px);
+    transform: translate(0px, 0px)
+}
+
+body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4 {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 300;
+    color: #666666;
+    line-height: 1.5em;
+}
+
+#about {
+    padding-top: 20px;
+    background: #ffffff; /* #ffd300; */
+    padding-bottom: 100px
+}
+
+#about h1 {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 154px;
+    line-height: 160px;
+    letter-spacing: -2px;
+    margin-top: 90px
+}
+
+#about h2 {
+    font-family: "Helvetica Neue", Georgia, serif;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    margin-top: -5px;
+    margin-left: 10px
+}
+
+#about .divider {
+   	width: 90px;
+    height: 10px;
+    background: #000;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 48px
+}
+
+#credo {
+    padding: 100px 0px;
+    background-color: #000;
+    background-image: url(../images/credo_bg.jpg);
+    background-size: cover;
+}
+
+#credo h1 {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 186px;
+    line-height: 170px;
+    letter-spacing: -8px;
+    color: #fff
+}
+
+#credo h2 {
+    font-family: "Helvetica Neue", Georgia, serif;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    color: #fff
+}
+
+#credo p {
+    margin-top: 15px;
+    font-family: "Helvetica", Georgia, serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    color: #fff
+}
+
+#credo .made-with {
+    text-align: center;
+    padding-top: 100px
+}
+
+#faq {
+    background: #f2f1f1;
+    padding-bottom: 80px
+}
+
+#faq p {
+    font-family: "Helvetica", Arial, serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #333
+}
+
+#faq h1.need-help {
+    margin-top: 100px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 172px;
+    line-height: 160px;
+    text-align: center
+}
+
+.faq-body {
+    padding-top: 70px
+}
+
+.faq-body .row {
+    margin-bottom: 50px
+}
+
+.faq-body a {
+    font-family: "Helvetica", Arial, sans-serif;
+    color: #000
+}
+
+.faq-body h2 {
+    font-family: "Helvetica Neue", Georgia, serif;
+    font-size: 36px;
+    line-height: 46px;
+    margin-bottom: 28px
+}
+
+#terms {
+    background: #f2f1f1;
+    padding-bottom: 80px
+}
+
+#terms h1 {
+   /* margin-top: 100px; */
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 112px;
+    font-weight: 400;
+    line-height: 98px;
+    letter-spacing: -2px;
+}
+
+#terms h2 {
+    font-family: "Helvetica Neue", Georgia, serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 46px;
+    margin-top: 50px
+}
+
+#terms h3 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    letter-spacing: -1px;
+    margin-bottom: 28px
+}
+
+#terms p {
+    font-family: "Helvetica", Georgia, serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #333
+}
+
+#terms .terms-body {
+    margin-top: 90px;
+    margin-bottom: 90px
+}
+
+#terms .terms-body .terms-block {
+    margin-top: 48px
+}
+
+#terms .terms-body .terms-block .unleserlich {
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase
+}
+
+/*
+footer nav ul {
+	list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+footer nav ul li a {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+    color: #000;
+    border-bottom: 1px solid transparent
+}
+
+footer nav ul li a:hover {
+    color: #000;
+    text-decoration: none
+}
+
+footer p {
+    font-size: 15px;
+    color: #000
+}
+
+footer .copyright {
+    width: 100%;
+    margin-top: 90px;
+    border-top: 1px solid #c7c7c7
+}
+
+footer .copyright img {
+    float: left;
+    margin-top: 0px;
+    margin-right: 10px
+}
+
+footer .copyright p {
+    font-size: 15px;
+    margin-top: 15px;
+    color: #000
+}
+*/
+.newsletter {
+    width: 390px;
+    float: right
+}
+
+form {
+    position: relative;
+    margin-top: -5px
+}
+
+form input {
+    -webkit-appearance: none;
+    border-radius: 0px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-weight: 300;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 13px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 15px;
+    letter-spacing: 1px;
+    transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    border: 1px solid #dbdbdb;
+    background: #fff;
+    color: #000
+}
+
+form input:focus {
+    -webkit-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.08);
+    outline: none
+}
+
+form input:focus::-webkit-input-placeholder {
+    transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    text-transform: uppercase;
+    color: #ddd
+}
+
+form input:focus:-moz-placeholder {
+    transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    text-transform: uppercase;
+    color: #ddd
+}
+
+form input:focus::-moz-placeholder {
+    transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    text-transform: uppercase;
+    color: #ddd
+}
+
+form input::-webkit-input-placeholder {
+    text-transform: uppercase;
+    color: #555
+}
+
+form input::-moz-placeholder {
+    text-transform: uppercase;
+    color: #555
+}
+
+form input:-ms-input-placeholder {
+    text-transform: uppercase;
+    color: #555
+}
+
+form .submit-button {
+    width: 50px;
+    height: 50px;
+    background: url(../images/newsletter.png) top;
+    background-color: #f2f1f1;
+    position: absolute;
+    text-indent: -5000px;
+    border: none;
+    right: 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    top: 0
+}
+
+form .submit-button:hover {
+    background-color: #000;
+    background-position: bottom
+}
